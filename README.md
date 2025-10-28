@@ -75,8 +75,8 @@ Confusion Matrix-Breakdown of prediction results;
 AUC-ROC-Curve	Distinguishes between sentiment classes.
 
 🛠️ Tech Stack
-Languages: Python
-Libraries: Pandas, NumPy, NLTK, Scikit-learn
-Modeling: Machine Learning, Deep Learning (LSTM, Transformers)
-Deployment: Streamlit
+Languages: Python;
+Libraries: Pandas, NumPy, NLTK, Scikit-learn;
+Modeling: Machine Learning, Deep Learning (LSTM, Transformers);
+Deployment: Streamlit;
 Visualization: Matplotlib, Seaborn, WordCloud
