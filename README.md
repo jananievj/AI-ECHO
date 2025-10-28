@@ -68,11 +68,11 @@ Recommendations – Actionable insights to improve the app
 Live Sentiment Prediction – Classify new reviews on the fly
 
 🧪 Evaluation Metrics
-Accuracy-Correctness of predictions
-Precision & Recall-Reliability of class predictions
-F1-Score-Balance between precision and recall
-Confusion Matrix-Breakdown of prediction results
-AUC-ROC-Curve	Distinguishes between sentiment classes
+Accuracy-Correctness of predictions;
+Precision & Recall-Reliability of class predictions;
+F1-Score-Balance between precision and recall;
+Confusion Matrix-Breakdown of prediction results;
+AUC-ROC-Curve	Distinguishes between sentiment classes.
 
 🛠️ Tech Stack
 Languages: Python
