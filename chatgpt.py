@@ -15,7 +15,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 st.set_page_config(page_title="AI Echo — Sentiment Dashboard", layout="wide")
 #  LOAD MODEL
-model_path = r"C:\Users\ADMIN\Desktop\AI ECHO\NLP_model.pkl"
+model_path = r"C:\Users\ADMIN\OneDrive\Desktop\AI ECHO\NLP_model.pkl"
 try:
     nlp_model = pickle.load(open(model_path, "rb"))
     st.sidebar.success("✅ Model loaded successfully.")
@@ -116,7 +116,7 @@ elif selected == "📈 Sentiment Analysis":
 
     # Load dataset safely
     try:
-        df = pd.read_csv("C:/Users/ADMIN/Desktop/AI ECHO/cleaned chatgpt.csv")
+       df = pd.read_csv(r"C:\Users\ADMIN\OneDrive\Desktop\AI ECHO\cleaned chatgpt.csv")
     except FileNotFoundError:
         st.error("🚫 File not found. Please check the path and try again.")
         st.stop()
